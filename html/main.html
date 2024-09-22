@@ -1,10 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="row">
+    <div class="col-2">    <!--оформление меню с меню-->
+        <div class="row h-100">
+            <div class="container-fluid text-bg-dark p-3 vh-100 d-inline-block d-inline-block">
+                <h1>Меню</h1>
+                <button type="button" class="btn btn-primary col-12 mt-2">Главная</button>
+                <button type="button" class="btn btn-primary col-12 mt-2">Категории</button>
+                <button type="button" class="btn btn-primary col-12 mt-2">Заказы</button>
+                <button type="button" class="btn btn-primary col-12 mt-2">Контакты</button>
+                <a class="nav-link dropdown-toggle position-absolute bottom-0" href="#" id="navbarDarkDropdownMenuLink"
+                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Пользователь
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Профиль</a></li>
+                    <li><a class="dropdown-item" href="#">Выход</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-9">   <!--оформление контента-->
+        <div class="row mt-5 text-center">
+            <h1>Главная</h1>
+            <h6>Вы находитесь на сайте, предназначенном для продажи товаров</h6>
+        </div>
+        <div class="row mt-5">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <div class="container-fluid position-absolute mt-5">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Товар 1</h5>
+                            <h5 class="card-title">$100</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <div class="container-fluid position-absolute mt-5">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Товар 1</h5>
+                            <h5 class="card-title">$100</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <div class="container-fluid position-absolute mt-5">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Товар 1</h5>
+                            <h5 class="card-title">$100</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+    </div>
+</div>
 </body>
 </html>
